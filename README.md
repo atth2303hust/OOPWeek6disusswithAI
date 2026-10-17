@@ -35,23 +35,4 @@ python -m unittest discover -s tests -v
 
 `BorrowingSlip.add_device()` kiểm tra tất cả điều kiện và tạo `BorrowItem` trước, rồi mới chuyển trạng thái và append. `return_device()` xác thực phiếu/ngày trả trước khi ghi trả và đổi trạng thái. Các kiểm thử xác minh tình huống lỗi không làm thay đổi phiếu/thiết bị.
 
-## Thông tin nộp bài / GitHub
 
-- Họ và tên: `[DIEN_HO_TEN]`
-- MSSV: `[DIEN_MSSV]`
-- Repository URL: `[DIEN_GITHUB_URL_SAU_KHI_PUSH]`
-
-**Không được coi mẫu là bằng chứng đã tự làm/commit.** Quy trình bài tập yêu cầu bạn tự làm và commit phần của bạn *trước* khi sử dụng AI. Phần này phải tự bổ sung bằng lịch sử thật của repository; không được điền commit giả. Xem `docs/AI_USAGE_LOG.md`.
-
-Lệnh git để tải bài lên repository mà bạn tạo:
-
-```bash
-git init
-git add .
-git commit -m "Add Lab W06 OOP implementation and tests"
-git branch -M main
-git remote add origin https://github.com/<USERNAME>/<REPOSITORY>.git
-git push -u origin main
-```
-
-Chỉ sử dụng lệnh `git remote add ...` sau khi thay `<USERNAME>/<REPOSITORY>` bằng repository thật. Git commit của mã AI **không thay thế** commit phần tự làm trước AI mà giảng viên yêu cầu.
